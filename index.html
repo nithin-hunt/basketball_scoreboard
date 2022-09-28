@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <h3 class="header-team">HOME</h3>
+        <h1 class="score" id="home-score">0</h1>
+        <div>
+          <button class="first-btn" onclick="incrementby1()">+1</button>
+          <button onclick="incrementby2()">+2</button>
+          <button class="last-btn" onclick="incrementby3()">+3</button>
+        </div>
+        <div class="penalty-btn">
+          <button class="first-btn" onclick="decrementby1()">-1</button>
+          <button onclick="decrementby2()">-2</button>
+          <button class="last-btn" onclick="decrementby3()">-3</button>
+        </div>
+      </div>
+      <div>
+        <h3 class="header-team">GUEST</h3>
+        <h1 class="score" id="guest-score">0</h1>
+        <div>
+          <button class="first-btn" onclick="incrementby1()">+1</button>
+          <button onclick="incrementby3()">+2</button>
+          <button class="last-btn" onclick="incrementby3()">+3</button>
+        </div>
+        <div class="penalty-btn">
+          <button class="first-btn" onclick="decrementby1()">-1</button>
+          <button onclick="decrementby2()">-2</button>
+          <button class="last-btn" onclick="decrementby3()">-3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

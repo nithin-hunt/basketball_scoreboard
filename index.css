@@ -1,0 +1,66 @@
+@font-face {
+    src: url("assets/scoreboard.ttf");
+    font-family: scoreboard;
+}
+body {
+    margin: 0 auto;
+    background: #19244D;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.header-team {
+    font-family: 'Verdana';
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    margin-top: 68px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.score {
+    font-family: scoreboard;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 141%;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 5px;
+    background: #080001;
+    width:117px;
+    height: 120px;
+    padding: 0px 20px 0px 18px;
+    margin: 21px 0px 26px 0px;
+}
+button{
+    font-family: scoreboard;
+    color: #9AABD8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    padding: 9px 8px 10px 7px;
+}
+button:hover {
+	background: #9aabd8;
+	color: #0c4a6e;
+	font-weight: 800;
+	border: none;
+}
+.first-btn {
+    margin-right: 8px;
+}
+.last-btn {
+    margin-left: 8px;
+}
+.penalty-btn {
+    margin-top: 20px;
+}

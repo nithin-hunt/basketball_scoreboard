@@ -12,31 +12,32 @@
         <h3 class="header-team">HOME</h3>
         <h1 class="score" id="home-score">0</h1>
         <div>
-          <button class="first-btn" onclick="incrementby1()">+1</button>
-          <button onclick="incrementby2()">+2</button>
-          <button class="last-btn" onclick="incrementby3()">+3</button>
+          <button class="first-btn" onclick="homeAddBy1()">+1</button>
+          <button onclick="homeAddBy2()">+2</button>
+          <button class="last-btn" onclick="homeAddBy3()">+3</button>
         </div>
         <div class="penalty-btn">
-          <button class="first-btn" onclick="decrementby1()">-1</button>
-          <button onclick="decrementby2()">-2</button>
-          <button class="last-btn" onclick="decrementby3()">-3</button>
+          <button class="first-btn" onclick="homeSubBy1()">-1</button>
+          <button onclick="homeSubBy2()">-2</button>
+          <button class="last-btn" onclick="homeSubBy3()">-3</button>
         </div>
       </div>
       <div>
         <h3 class="header-team">GUEST</h3>
         <h1 class="score" id="guest-score">0</h1>
         <div>
-          <button class="first-btn" onclick="incrementby1()">+1</button>
-          <button onclick="incrementby3()">+2</button>
-          <button class="last-btn" onclick="incrementby3()">+3</button>
+          <button class="first-btn" onclick="guestAddBy1()">+1</button>
+          <button onclick="guestAddBy2()">+2</button>
+          <button class="last-btn" onclick="guestAddBy3()">+3</button>
         </div>
         <div class="penalty-btn">
-          <button class="first-btn" onclick="decrementby1()">-1</button>
-          <button onclick="decrementby2()">-2</button>
-          <button class="last-btn" onclick="decrementby3()">-3</button>
+          <button class="first-btn" onclick="guestSubBy1()">-1</button>
+          <button onclick="guestSubBy2()">-2</button>
+          <button class="last-btn" onclick="guestSubBy3()">-3</button>
         </div>
       </div>
     </div>
+    <button id="new-game" onclick="resetScore()">New Game</button>
     <script src="index.js"></script>
   </body>
 </html>

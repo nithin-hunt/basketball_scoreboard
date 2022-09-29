@@ -3,7 +3,7 @@
     font-family: scoreboard;
 }
 body {
-    margin: 0 auto;
+    margin: 0;
     background: #19244D;
 }
 #container{
@@ -63,4 +63,12 @@ button:hover {
 }
 .penalty-btn {
     margin-top: 20px;
+}
+
+#new-game {
+    width:150px;
+    height: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
 }
